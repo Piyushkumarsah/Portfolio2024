@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa';
-import authorVector from '../assets/authorvector.png'
+// import authorVector from '../assets/authorvector.png'
 // import authorVector2 from '../assets/authorVector2.png'
 import CreatorImg from '../assets/creatorImg.png'
 import theme from './theme';

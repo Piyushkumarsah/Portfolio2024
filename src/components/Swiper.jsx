@@ -6,27 +6,27 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import image from '../assets/css.png'
+// import image from '../assets/css.png'
 import stonePaper from '../assets/stonepaper.png'
 import codeeditor2 from '../assets/codeeditor2.png';
-import codeeditorlogin from '../assets/codeeditorlogin.png'
+// import codeeditorlogin from '../assets/codeeditorlogin.png'
 import yoga1 from '../assets/yoga1.png';
-import yoga2 from '../assets/yoga2.png';
+// import yoga2 from '../assets/yoga2.png';
 import portfolio1 from '../assets/portfolio1.png';
-import portfolio2 from '../assets/portfolio2.png';
+// import portfolio2 from '../assets/portfolio2.png';
 import collegehub1 from '../assets/collegehub1.png';
-import collegehub2 from '../assets/collegehub2.png';
+// import collegehub2 from '../assets/collegehub2.png';
 import database1 from '../assets/database1.png';
-import database2 from '../assets/database2.png';
+// import database2 from '../assets/database2.png';
 
-export default () => {
+export default Swiper = () => {
     const projects = [
         { name: "College_hub", type: "Resourcing", image: collegehub1,code:"" },
         { name: "Product Management System", type: "Database Manager", image: database1,code:"https://github.com/Piyushkumarsah/ProductManagementSystem",visit:"" },
         { name: "RealTime Code Editor", type: "Live CodeEditor", image: codeeditor2,code:"https://github.com/Piyushkumarsah/Collaborative_Realtime-codeEditor",vist:" https://realtimeeditor-2r9t.onrender.com" },
         { name: "Stone Paper Scissor", type: "Game", image: stonePaper,code:"https://github.com/Piyushkumarsah/stonePaperScissor-Game",visit:"https://piyushkumarsah.github.io/stonePaperScissor-Game/" },
         { name: "Yoga World", type: "E-comm selling", image: yoga1,code:"https://github.com/Piyushkumarsah/yoga",visit:"https://piyushkumarsah.github.io/yoga/" },
-        { name: "Portfolio", type: "ShowCase", image: portfolio1,code:"",visit:"" },
+        { name: "Portfolio", type: "ShowCase", image: portfolio1,code:"https://github.com/Piyushkumarsah/Portfolio2024",visit:"https://portfolio2024-eri2.onrender.com/" },
     ]
     return (
         <div>
@@ -90,7 +90,7 @@ export default () => {
                                 {projects.map((skill, index) => (
                                     <SwiperSlide autoplay delay={100} >
                                         <div className="border m-2 flex flex-col items-center justify-center border-[#343434] hover:scale-105 p-8 rounded-md" style={{ backgroundColor: theme.secondaryBackground, color: theme.secondaryText }}>
-                                            <img src={skill.image} key={index} />
+                                            <img src={skill.image} alt='' key={index} />
                                             <div className=' w-full pt-2'>
                                                 <p className='text-sm' style={{ color: theme.vibrant }}>{skill.type}</p>
                                                 <p className=' text-white text-xl'>{skill.name}</p>
