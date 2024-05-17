@@ -19,7 +19,7 @@ import collegehub1 from '../assets/collegehub1.png';
 import database1 from '../assets/database1.png';
 // import database2 from '../assets/database2.png';
 
-export default Swiper = () => {
+export default function SwiperSlider(){
     const projects = [
         { name: "College_hub", type: "Resourcing", image: collegehub1,code:"" },
         { name: "Product Management System", type: "Database Manager", image: database1,code:"https://github.com/Piyushkumarsah/ProductManagementSystem",visit:"" },
@@ -116,5 +116,5 @@ export default Swiper = () => {
             <hr />
 
         </div>
-    );
-};
+    )
+}
