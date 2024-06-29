@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 // import image from '../assets/css.png'
 import stonePaper from '../assets/stonepaper.png'
-import codeeditor2 from '../assets/codeeditor2.png';
+import codeeditor3 from '../assets/codeeditor3.png';
 // import codeeditorlogin from '../assets/codeeditorlogin.png'
 import yoga1 from '../assets/yoga1.png';
 // import yoga2 from '../assets/yoga2.png';
@@ -23,7 +23,7 @@ export default function SwiperSlider(){
     const projects = [
         { name: "College_hub", type: "Resourcing", image: collegehub1,code:"" },
         { name: "Product Management System", type: "Database Manager", image: database1,code:"https://github.com/Piyushkumarsah/ProductManagementSystem",visit:"" },
-        { name: "RealTime Code Editor", type: "Live CodeEditor", image: codeeditor2,code:"https://github.com/Piyushkumarsah/Collaborative_Realtime-codeEditor",vist:" https://realtimeeditor-2r9t.onrender.com" },
+        { name: "RealTime Code Editor", type: "Live CodeEditor", image: codeeditor3,code:"https://github.com/Piyushkumarsah/Collaborative_Realtime-codeEditor",vist:" https://realtimeeditor-2r9t.onrender.com" },
         { name: "Stone Paper Scissor", type: "Game", image: stonePaper,code:"https://github.com/Piyushkumarsah/stonePaperScissor-Game",visit:"https://piyushkumarsah.github.io/stonePaperScissor-Game/" },
         { name: "Yoga World", type: "E-comm selling", image: yoga1,code:"https://github.com/Piyushkumarsah/yoga",visit:"https://piyushkumarsah.github.io/yoga/" },
         { name: "Portfolio", type: "ShowCase", image: portfolio1,code:"https://github.com/Piyushkumarsah/Portfolio2024",visit:"https://portfolio2024-eri2.onrender.com/" },
