@@ -54,7 +54,7 @@ export default function Intro() {
                                     <a href='https://www.instagram.com/____kumar_piyush____/' className='mx-1 p-1 hover:scale-110  rounded-md' style={{ backgroundColor: theme.secondaryBackground }}><FaInstagram size={32}></FaInstagram></a>
                                 </div>
                                 <div className='flex items-end'>
-                                    <a href='https://app.joinsuperset.com/students/jobprofiles?currentJobId=98fd7669-01d6-4c04-af18-0a135c8e05f9' className='mx-1   underline hover:scale-110  rounded-md'>Resume</a>
+                                    <a href='https://drive.google.com/file/d/1mSf6zq0_JKIwRnbAMAUpABpsZg8rdGC9/view?usp=drive_link' className='mx-1   underline hover:scale-110  rounded-md'>Resume</a>
                                 </div>
                             </div>
                         </div>
